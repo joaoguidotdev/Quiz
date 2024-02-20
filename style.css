@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis,com/css2?family=Inter:wdght@400;600;700&display=swap');
+
+
+*, :root {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Inter', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 640px;
+  padding: 20px;
+  margin: 0 auto 64px;
+}
+
+h3 {
+    margin: 20px auto;
+}
+
+#acertos {
+  text-align: center;
+  background-color: #357ce6;
+
+  position: fixed;
+  bottom:0;
+  left:0;
+
+  width: 100%;
+  padding: 12px;
+
+}
